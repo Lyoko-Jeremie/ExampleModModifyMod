@@ -1,0 +1,45 @@
+{
+  "name": "AModThatWillBeModifyByExampleModModifyMod",
+  "version": "1.0.0",
+  "styleFileList": [
+  ],
+  "scriptFileList_earlyload": [
+  ],
+  "scriptFileList_inject_early": [
+  ],
+  "scriptFileList_preload": [
+  ],
+  "scriptFileList": [
+  ],
+  "tweeFileList": [
+  ],
+  "imgFileList": [
+  ],
+  "imgFileReplaceList": [
+  ],
+  "additionFile": [
+    "README.md"
+  ],
+  "addonPlugin": [
+    {
+      "modName": "TweeReplacer",
+      "addonName": "TweeReplacerAddon",
+      "modVersion": "^1.2.0",
+      "params": [
+        {
+          "passage": "Widgets Version Info",
+          "findString": "\"Maybe Pile\" edition",
+          "replace": "\"No A Pile\" edition",
+          "debug": true,
+          "all": true
+        }
+      ]
+    }
+  ],
+  "dependenceInfo": [
+    {
+      "modName": "TweeReplacer",
+      "version": "^1.2.0"
+    }
+  ]
+}
